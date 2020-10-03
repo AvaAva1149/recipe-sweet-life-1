@@ -48,6 +48,9 @@ body{
 .nav2:hover{
   color:darkred;
 }
+.navrec{
+  color:darkred;
+}
 
 .secondnav{
   background-color:darkgrey;
@@ -131,8 +134,11 @@ h4{
 
 h5{
  
-   font-family:hevetica, arial, sanserif;
-  color:black;
+    color:black;
+  font-size:1em;
+  font-style:normal;
+  font-family:hevetica, arial, sanserif;
+  font-weight:700;
 }
 p{
   color:black;
@@ -153,10 +159,7 @@ p{
   font-size:0.75em;
 }
 
-.com{
-  color:black;
-  padding:0.20em 1em 0.20em 1em;
-}
+
 
 footer{
   background-color:rgb(189, 189, 27);
@@ -176,8 +179,9 @@ footer{
 
 .policy{
  padding-bottom:1em;
- 
+ padding-right:38px;
 }
+
 .lastfo{
   color:white;
     font-size:0.70em;
@@ -195,13 +199,25 @@ footer{
 }
 .comment{
   background-color:darkgrey;
+ 
+}
+.com{
+  color:black;
+  padding:0.20em 1em 0.20em 1em;
+  text-align:center;
 }
 
+.name{
+  padding-left:25px;
+}
 
+.e-mail{
+  padding-left:20px;
+}
 
-
-
-
+.submit{
+  padding-left:7px;
+}
 
 @media screen and (min-width:680px){
   
@@ -213,20 +229,22 @@ footer{
 
  }
   
+ 
+  
  .mainnav{
   grid-row:1/2;
 }
 
 .nav{
   font-size:1.25em;
-  padding:1em 1em 1em 0em;
+  padding:1em 1em 1em 0.08em;
  text-align:center;
 
   
  }
 .nav2{
-   font-size:1.5em;
-   padding:0.60em;
+   font-size:1.25em;
+   padding:0.90em;
 }
   
 .secondnav{
@@ -234,7 +252,7 @@ footer{
   }
   
 .search{
-font-size:1.25em;
+font-size:1.35em;
 padding-left:1.5em;
  }
   
@@ -327,7 +345,7 @@ p{
 
 
 .img {
-  width:320px;
+  width:450px;
 }
 .highlight{
   background-color:rgb(233, 233, 114);
@@ -346,6 +364,19 @@ footer{
   text-align:center;
   padding:0.50em 0em 0.50em 0em;
 }
+  
+  .name{
+  padding-left:50%;
+}
+
+.e-mail{
+  padding-left:49%;
+}
+
+.submit{
+  padding-left:47%;
+}
+
 .foo{
   display:inline;
   font-size:1.10em;
@@ -353,13 +384,14 @@ footer{
   font-style:normal;
   color:yellow;
   font-family:hevetica, arial, sanserif;
+
  
   
 }
 
 .policy{
  padding-bottom:1em;
- 
+   padding-right:43px;
 }
 .lastfo{
   color:white;
@@ -398,21 +430,34 @@ footer{
   margin:auto;
 
  }
+ 
   
  .mainnav{
   grid-row:1/2;
 }
 
 .nav{
-  font-size:1.5em;
-  padding:1em 0.50em 1em 0em;
+  font-size:1.45em;
+ padding:1.25em;
+
  text-align:center;
  
   
  }
+  
+  .listmaterial{
+   display:inline;
+  padding-left:11em;
+  padding-top:0.75em;
+  width:0.25px;
+  height:0.25px;
+  
+  
+  
+}
 .nav2{
    font-size:1.55em;
-   padding:0.90em;
+   padding:1.60em;
 }
   
 .secondnav{
@@ -420,8 +465,8 @@ footer{
   }
   
 .search{
-font-size:1.65em;
-padding-left:1.5em;
+font-size:1.70em;
+padding-left:5em;
  }
   
 .input{
@@ -460,7 +505,7 @@ h2{
 h3{
   color:white;
   background-color:rgb(189, 189, 27);
-  padding-left:0.50em;
+  padding-left:1em;
   font-size:1.5em;
   
 }
@@ -469,26 +514,28 @@ h4{
   color:yellow;
   font-style:italic;
   font-size:1.25em;
+  padding-left:0.80em;
 }
 
 h5{
   
-   font-family:hevetica, arial, sanserif;
+  font-family:hevetica, arial, sanserif;
   color:black;
-  font-size:0.80em;
+  font-size:0.95em;
    font-style:normal;
+   padding-left:0.80em;
 } 
 p{
   color:black;
     font-size:1em;
   font-style:normal;
-  
+   padding-left:0.80em;
 }
 
 
 .img {
-  width:320px;
-}
+  width:600px;
+   }
 .highlight{
   background-color:rgb(233, 233, 114);
     text-transform:uppercase;
@@ -496,11 +543,12 @@ p{
   font-size:0.75em;
 }
 
-.com{
-  color:black;
-  padding:0.20em 1em 0.20em 1em;
-}
+   .comment{
+  background-color:darkgrey;
+  margin-top:2em;
+ }
 
+ 
 footer{
   background-color:rgb(189, 189, 27);
   text-align:center;
@@ -508,17 +556,18 @@ footer{
 }
 .foo{
   display:inline;
-  font-size:1.10em;
- padding:0.60em;
+  font-size:1.30em;
+ padding:1em;
   font-style:normal;
   color:yellow;
   font-family:hevetica, arial, sanserif;
+  text-align:center;
  
   
 }
 
 .policy{
- padding-bottom:1em;
+ padding-bottom:1.5em;
  
 }
 .lastfo{
@@ -544,3 +593,71 @@ footer{
   .imgny{
     padding-top:1em;
   }
+  .imgbutter{
+    width:480px;
+    padding-left:1em;
+  }
+  
+  .ia{
+    grid-row:1/2;
+    grid-column:1/2;
+    padding-top:100px;
+    padding-left:2px;
+   
+  
+    
+  }
+  .ib{
+    grid-row:1/2;
+    grid-column:2/3;
+  
+    padding-right:1em;
+    
+  }
+  
+  .ic{grid-row:2/3;
+    grid-column:1/2;
+
+     padding-left:2em;
+  }
+ 
+  .id{
+    grid-row:2/3;
+    grid-column:2/3;
+  
+  }
+ .imgb{
+    width:380px;
+padding-left:30px;}
+  .imgc1{
+    width:450px;
+    padding-left:40px;
+  }
+  .imgt{
+    width:450px;
+    
+  }
+  .imgd{
+    width:450px;
+    padding-left:40px;
+  }
+  
+  .name{
+  padding-left:50%;
+   margin-top:0.5em;
+}
+
+.e-mail{
+  padding-left:49.5%;
+}
+
+.submit{
+  padding-left:48%;
+  margin-bottom:0.5em;
+  padding-top:1em;
+}
+ 
+  }
+  
+  
+   
