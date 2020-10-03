@@ -190,12 +190,19 @@ footer{
 
 .star{
  list-style:none;
-}
+  text-align:center;
+  padding-right:28px;
+ }
 .rate{
   display:inline;
+  text-align:center;
+  
 }
-.rrate{padding-right:1em;
+.rrate{
+  Text-align:center;
   color:white;
+  display:inline;
+  padding-left:20px;
 }
 .comment{
   background-color:darkgrey;
@@ -401,14 +408,21 @@ footer{
 
 .star{
  list-style:none;
-}
+  text-align:center;
+  padding-right:28px;
+ }
 .rate{
   display:inline;
-
+  text-align:center;
+  padding-left:6px;
 }
-.rrate{padding-right:1em;
-
+.rrate{
+  Text-align:center;
   color:white;
+  font-size:1.25em;
+  display:inline;
+  text-align:center;
+  padding-left:180px;
 }
 .comment{
   background-color:darkgrey;
@@ -581,11 +595,16 @@ footer{
 }
 .rate{
   display:inline;
-
+  text-align:center;
+  padding-left:6px;
 }
-.rrate{padding-right:1em;
-
+.rrate{
+  Text-align:center;
   color:white;
+  font-size:1.5em;
+  display:inline;
+  text-align:center;
+  padding-left:340px;
 }
 .comment{
   background-color:darkgrey;
